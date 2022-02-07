@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>In Picture</title>
+</head>
+
+<body onload="init()">
+    <div class="game-container">
+        <h1>Welcome to my identify the picture game!</h1>
+        <p>
+            The rules are as follows:Just below this text, you should see a picture with a snippet of code, but oh no! We lost the reserved words and var names! Do you think you can still identify the purpose of the code? Press the option which best fits the code.
+        </p>
+    </div>
+    <img class="picture"></img>
+    <div class="opts-container">
+    </div>
+    </div>
+    <div class="modal">
+        <h1>You Won!
+            <br><button class="restart-btn" onclick="init()">Restart</button>
+        </h1>
+    </div>
+    <script src="js/inPicture.js"></script>
+</body>
+
+</html>
